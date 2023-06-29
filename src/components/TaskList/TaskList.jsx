@@ -1,6 +1,5 @@
 import { Task } from "components/Task/Task"
 import { useSelector } from "react-redux";
-import { statusFilter } from "redux/contacts";
 import { getStatusFilter } from "../../redux/selectors";
 
 const getVisibleTasks = (tasks, statusFilter) => {
